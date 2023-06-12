@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>silder</title>
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <p>PHOTO SLIDER</p>
+            </div>
+            <div class="photos">
+               <img src="realless.png" id="less" onclick="left()">
+               <img src="allanimals.jpg" id="animal1"onclick="a(0)">
+               <img src="bird.jpg" id="animal2" onclick="a(1)">
+               <img src="cat.jpg" id="animal3"onclick="a(2)" >
+               <img src="elephant.jpg" id="animal4"onclick="a(3)" style="display: none;">
+               <img src="lion.jpg" id="animal5" onclick="a(4)" style="display: none;">
+               <img src="panda.jpg" id="animal6" onclick="a(5)" style="display: none;">
+               <img src="pig.jpg" id="animal7" onclick="a(6)" style="display: none;">
+               <img src="squiral.jpg" id="animal8" onclick="a(7)" style="display: none;">
+               <img src="whitetiger.jpg" id="animal9" onclick="a(8)" style="display: none;">
+               <img src="greater.png" id="greater" onclick="right()">
+            </div>
+            <div class="show">
+                <img src="allanimals.jpg" id="animal">
+            </div>
+        </div>
+    </body>
+    <script src="photo.js"></script>
+</html>
